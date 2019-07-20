@@ -15,7 +15,7 @@ class GameScene {
     
     _initRoles() {
         this.roles.push(new Sky(this.ctx, this.imgObj.sky, 3));
-		this.roles.push(new Sky(this.ctx, this.imgObj.sky, 3));
+        this.roles.push(new Sky(this.ctx, this.imgObj.sky, 3));
         for (var i = 0; i < 6; i++) {
             this.roles.push(new Pipe(this.ctx, this.imgObj.pipeDown, this.imgObj.pipeUp, 150, this.imgObj.land.height, 3));
         }
